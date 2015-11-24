@@ -19,7 +19,7 @@
 
 #define BLUETOOTH_QTI_SW TRUE
 
-#define BTM_DEF_LOCAL_NAME   "LG G3 D855"
+#define BTM_DEF_LOCAL_NAME   "LG G3 F460"
 // Disables read remote device feature
 #define BTA_SKIP_BLE_READ_REMOTE_FEAT TRUE
 #define MAX_L2CAP_CHANNELS    14
