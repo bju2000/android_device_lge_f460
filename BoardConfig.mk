@@ -17,15 +17,15 @@
 # inherit from common g3
 -include device/lge/g3-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := g3,d855
+TARGET_OTA_ASSERT_DEVICE := g3,f460
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
 BLUETOOTH_HCI_USE_MCT := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d855/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/f460/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_d855_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_f460_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
@@ -36,7 +36,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12297699328
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/lge/d855/rootdir/etc/fstab.g3
+TARGET_RECOVERY_FSTAB := device/lge/f460/rootdir/etc/fstab.g3
 
 # NFC
 BOARD_NFC_CHIPSET := pn547
@@ -55,4 +55,4 @@ WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
--include vendor/lge/d855/BoardConfigVendor.mk
+-include vendor/lge/f460/BoardConfigVendor.mk
