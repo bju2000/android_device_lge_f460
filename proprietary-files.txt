@@ -78,3 +78,94 @@ etc/firmware/venus.b03
 etc/firmware/venus.b04
 etc/firmware/venus.mbn
 etc/firmware/venus.mdt
+
+# WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP WIP
+
+# Audio
+etc/Bluetooth_cal.acdb
+etc/General_cal.acdb
+etc/Global_cal.acdb
+etc/Handset_cal.acdb
+etc/Hdmi_cal.acdb
+etc/Headset_cal.acdb
+etc/Speaker_cal.acdb
+
+# Camera
+lib/hw/camera.apq8084.so
+vendor/lib/libmmcamera_imx135.so
+vendor/lib/libmmcamera_imx135_eeprom.so
+vendor/lib/libmmcamera_imx208.so
+
+# Camera Chromatix
+vendor/lib/libchromatix_imx135_120fps_cpp.so
+vendor/lib/libchromatix_imx135_30fps_common.so
+vendor/lib/libchromatix_imx135_30fps_cpp.so
+vendor/lib/libchromatix_imx135_30fps_default_video.so
+vendor/lib/libchromatix_imx135_30fps_hfr_120.so
+vendor/lib/libchromatix_imx135_30fps_hfr_60.so
+vendor/lib/libchromatix_imx135_30fps_liveshot.so
+vendor/lib/libchromatix_imx135_30fps_mms_video.so
+vendor/lib/libchromatix_imx135_30fps_preview.so
+vendor/lib/libchromatix_imx135_30fps_snapshot.so
+vendor/lib/libchromatix_imx135_30fps_uhd_cpp.so
+vendor/lib/libchromatix_imx135_30fps_uhd_video.so
+vendor/lib/libchromatix_imx135_30fps_video_dualrec.so
+vendor/lib/libchromatix_imx135_30fps_video_hd.so
+vendor/lib/libchromatix_imx135_30fps_video_hdr.so
+vendor/lib/libchromatix_imx135_30fps_video_qtr.so
+vendor/lib/libchromatix_imx135_cpp.so
+vendor/lib/libchromatix_imx208_30fps_cpp.so
+vendor/lib/libchromatix_imx208_common.so
+vendor/lib/libchromatix_imx208_cpp.so
+vendor/lib/libchromatix_imx208_default_video.so
+vendor/lib/libchromatix_imx208_liveshot.so
+vendor/lib/libchromatix_imx208_mms_video.so
+vendor/lib/libchromatix_imx208_preview.so
+vendor/lib/libchromatix_imx208_snapshot.so
+vendor/lib/libchromatix_imx208_vt.so
+
+# Camera Firmware
+etc/firmware/cpp_firmware_v1_1_1.fw
+etc/firmware/cpp_firmware_v1_1_6.fw
+etc/firmware/cpp_firmware_v1_2_0.fw
+etc/firmware/cpp_firmware_v1_6_0.fw
+media/bu24205_LGIT_rev16_1_2030_data1.bin
+media/bu24205_LGIT_rev16_1_2030_data2.bin
+media/bu24205_LGIT_rev16_1_2030_data3.bin
+media/bu24205_LGIT_rev7_1_data1.bin
+media/bu24205_LGIT_rev7_1_data2.bin
+media/bu24205_LGIT_rev7_1_data3.bin
+media/bu24205_LGIT_rev9_5M.bin
+media/DLdata_rev28B_data1.ecl
+media/DLdata_rev28B_data2.ecl
+media/DLdata_rev28B_data3.ecl
+
+# DRM
+vendor/lib/liboemcrypto.so
+lib/drm/libdrmwvmplugin.so
+
+# GPS
+priv-app/com.qualcomm.location
+
+# Graphics firmware
+etc/firmware/a420_pfp.fw
+etc/firmware/a420_pm4.fw
+
+# Media
+lib/libdivxdrm_jni.so
+lib/libdivxdrmdecrypt.so
+
+# Radio
+app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+app/shutdownlistener/shutdownlistener.apk
+
+# Time services
+app/TimeService/TimeService.apk
+
+# Radio
+vendor/lib/libmdmdetect.so
+lib/libxml2.so
+vendor/lib/libxml.so
+
+# Sensors
+vendor/lib/hw/sensors.apq8084.so
