@@ -25,7 +25,7 @@ BLUETOOTH_HCI_USE_MCT := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/f460/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_f460_defconfig
+TARGET_KERNEL_CONFIG := t6_skt-perf_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Partitions
