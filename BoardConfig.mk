@@ -17,6 +17,10 @@
 # inherit from common g3
 -include device/lge/g3-common/BoardConfigCommon.mk
 
+# Platform
+TARGET_BOARD_PLATFORM := apq8084
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno420
+
 TARGET_OTA_ASSERT_DEVICE := g3,f460
 
 # Bluetooth
