@@ -17,6 +17,9 @@
 # inherit from common g3
 -include device/lge/g3-common/BoardConfigCommon.mk
 
+# Override
+BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
+
 # Platform
 TARGET_BOARD_PLATFORM := apq8084
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno420
