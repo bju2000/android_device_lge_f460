@@ -57,5 +57,36 @@ PRODUCT_COPY_FILES += \
     device/lge/g3-common/wcnss/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     device/lge/g3-common/wcnss/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
-# common g3
-$(call inherit-product, device/lge/g3-common/g3.mk)
+############################### WIP #######################################
+
+# Audio
+PRODUCT_PACKAGES += \
+    audio.primary.apq8084 \
+    audio_policy.apq8084
+
+# Camera
+PRODUCT_PACKAGES += \
+    camera.apq8084
+
+# Display
+PRODUCT_PACKAGES += \
+    copybit.apq8084 \
+    gralloc.apq8084 \
+    hwcomposer.apq8084 \
+    memtrack.apq8084
+	
+# GPS
+PRODUCT_PACKAGES += \
+    gps.apq8084
+
+# Keystore
+PRODUCT_PACKAGES += \
+    keystore.apq8084
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.apq8084
+
+# Power
+PRODUCT_PACKAGES += \
+    power.apq8084
