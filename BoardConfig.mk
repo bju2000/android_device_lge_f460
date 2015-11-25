@@ -18,7 +18,7 @@
 -include device/lge/g3-common/BoardConfigCommon.mk
 
 # Override
-BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/lge/f460/mkbootimg.mk
 
 # Platform
 TARGET_BOARD_PLATFORM := apq8084
