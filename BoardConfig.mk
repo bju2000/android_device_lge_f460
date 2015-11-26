@@ -29,15 +29,15 @@ BLUETOOTH_HCI_USE_MCT := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/f460/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := g3-skt-perf_defconfig
+TARGET_KERNEL_CONFIG := t6_skt-perf_defconfig
 TARGET_REQUIRES_BUMP := true
-#BOARD_CUSTOM_BOOTIMG := true
-#BOARD_CUSTOM_BOOTIMG_MK := device/lge/f460/mkbootimg.mk
-#BOARD_KERNEL_CMDLINE := console=none androidboot.hardware=g3 user_debug=31 msm_rtb.filter=0x37
-#BOARD_KERNEL_BASE := 0x00000000
-#BOARD_KERNEL_PAGESIZE := 4096
-#BOARD_KERNEL_SEPARATED_DT := true
-#BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02000000
+BOARD_CUSTOM_BOOTIMG := true
+BOARD_CUSTOM_BOOTIMG_MK := device/lge/f460/mkbootimg.mk
+BOARD_KERNEL_CMDLINE := console=none androidboot.hardware=g3 user_debug=31 msm_rtb.filter=0x37
+BOARD_KERNEL_BASE := 0x00000000
+BOARD_KERNEL_PAGESIZE := 4096
+BOARD_KERNEL_SEPARATED_DT := true
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02000000
 TARGET_KERNEL_SOURCE := kernel/lge/f460
 
 # Partitions
